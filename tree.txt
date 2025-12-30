@@ -1,0 +1,222 @@
+Structure du dossier
+Le num‚ro de s‚rie du volume est 9C26-1D36
+C:.
+³   .dvcignore
+³   .gitignore
+³   confusion_matrix_Test Data.png
+³   dockerfile
+³   dvc.lock
+³   dvc.yaml
+³   errors.log
+³   experiment_info.json
+³   lgbm_model.pkl
+³   LICENSE
+³   mlflow.db
+³   model_building_errors.log
+³   model_evaluation_errors.log
+³   model_registration_errors.log
+³   params.yaml
+³   preprocessing_errors.log
+³   README.md
+³   requirements.txt
+³   setup.py
+³   tfidf_vectorizer.pkl
+³   tree.txt
+³   
+ÃÄÄÄ.dvc
+³   ³   .gitignore
+³   ³   config
+³   ³   
+³   ÃÄÄÄcache
+³   ³   ÃÄÄÄfiles
+³   ³   ³   ÀÄÄÄmd5
+³   ³   ³       ÃÄÄÄ05
+³   ³   ³       ³       b3c753226b6993c9274dc11a02fd6d
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ1b
+³   ³   ³       ³       d422dd6d135bced1d6c64a3e84a45d
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ35
+³   ³   ³       ³       027dfda8274bd9356544f2ff358aa4
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ3b
+³   ³   ³       ³       1b844546eb00641c0d4ccf0a9240b0
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ44
+³   ³   ³       ³       1b518754691116fe2c5d73b75b37b5
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ4f
+³   ³   ³       ³       30375397ec89fead1745ee6d70f201
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ55
+³   ³   ³       ³       70e67dddc00c66ce2632888f01fce1
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄ89
+³   ³   ³       ³       799411596a26ac6d13cc8f8b71fe75
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄba
+³   ³   ³       ³       42408e7bd1e85685474d6a349ae57e.dir
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄc9
+³   ³   ³       ³       bc5e790ad68b57f63ccac1c0f42b79
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄce
+³   ³   ³       ³       9d9bcabe9d3f027e04cde723dc2b2e
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄd0
+³   ³   ³       ³       4a83d9a6485aeb69f178f02b7ec175
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄe1
+³   ³   ³       ³       3bcce40396cd334c8a7a334868166a.dir
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄe6
+³   ³   ³       ³       563b5a31473fa175af9a42233b1db8
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄe9
+³   ³   ³       ³       a5f8011abf90294395f0f0a0cbcc19
+³   ³   ³       ³       
+³   ³   ³       ÃÄÄÄea
+³   ³   ³       ³       97ba82a4a25627bf4ffb52572484ea
+³   ³   ³       ³       
+³   ³   ³       ÀÄÄÄf9
+³   ³   ³               f29bef6b850762193ac9183f8532e7
+³   ³   ³               
+³   ³   ÀÄÄÄruns
+³   ³       ÃÄÄÄ17
+³   ³       ³   ÀÄÄÄ179821ae61ac5ce8cd66d553d7d72361ee4c72c8dab1e2aecfa528afca233374
+³   ³       ³           a512e1552ee333c813b48a6cca74b2a01de0cba83f91ed9960890b68ff362c7d
+³   ³       ³           
+³   ³       ÃÄÄÄ52
+³   ³       ³   ÀÄÄÄ522da1f0547230e41f655618afb81b216d5f2a528fcaebb35560a388638f494e
+³   ³       ³           eb2eb24fdc9a0f70d3d4a90582a7fb4e63519ec788f24d1832b2877df05f79a9
+³   ³       ³           
+³   ³       ÃÄÄÄ6b
+³   ³       ³   ÀÄÄÄ6b1acd67cc0492f43b6ee883b8239d830f5b1b5560348ae5d3035fce6f8d7f1c
+³   ³       ³           584318c6d42e5c8683875ca3892f471580fd810c33fdd1986b219692822b866f
+³   ³       ³           
+³   ³       ÃÄÄÄ79
+³   ³       ³   ÀÄÄÄ79cf5e1dd0915dcd013bce6b4980e38d940980dd9c0e33be5cac0e0e4c602b0a
+³   ³       ³           bffe7c75025ebbbfabf8b3dcc639a34eec24259ce743096938b831d88da0f07c
+³   ³       ³           
+³   ³       ÃÄÄÄ8b
+³   ³       ³   ÀÄÄÄ8bce75c8c591e616a7cdb7f3138a694066984894377d228fdb1d1ac62a8551c2
+³   ³       ³           0a9729f4ffb3e32da94382f041e2b9e446e11f47af6e1e96ba50f32f1eb81430
+³   ³       ³           
+³   ³       ÃÄÄÄab
+³   ³       ³   ÀÄÄÄab4bbd280e0bfaca5f47b5b7f5fb8bf959a9936bf17a0c729db3f1fd225fa79b
+³   ³       ³           ee321cebe74bc8fd870606ad6c240c03502e6ae7df775e3dcda6af8ed9a994f8
+³   ³       ³           
+³   ³       ÃÄÄÄc4
+³   ³       ³   ÀÄÄÄc4ee982581c3440d08971f8abfcfa1f9acfbdbaeb65c3ad4de414ae777e75939
+³   ³       ³           649c27e7f3f02e22a7ca5f0a56cbfbc7f8baa443059ae34ac37602c820950a90
+³   ³       ³           
+³   ³       ÀÄÄÄf3
+³   ³           ÀÄÄÄf30a228b30f5ec54b9dd42cc180d13cc6d201084e5596fd16e887d1fe47e7207
+³   ³                   001dc257faa5702caae5321e36624b3c222b760215e86789ab24e025c34369b4
+³   ³                   c2ce9aa4547a9a3f13d0763704ac156738ad0a42ea630588337032ec9e5887c3
+³   ³                   c3456606b3224bd3d75c5e1f5de1c3d004375b60595a81cdec871b8af054bebd
+³   ³                   d18cda2c6f8e84bf0f23e096755a0b3ad54fbd99f23c4934f92a523016b708c2
+³   ³                   eec02a99797b490e62d78920aeb0b5ad3f1f5d2039a1779c60e35bf3b58d4efd
+³   ³                   
+³   ÀÄÄÄtmp
+³           btime
+³           lock
+³           rwlock
+³           rwlock.lock
+³           
+ÃÄÄÄ.github
+³   ÀÄÄÄworkflows
+³           cicd.yaml
+³           
+ÃÄÄÄdata
+³   ³   .gitignore
+³   ³   
+³   ÃÄÄÄinterim
+³   ³       test_processed.csv
+³   ³       train_processed.csv
+³   ³       
+³   ÀÄÄÄraw
+³           test.csv
+³           train.csv
+³           
+ÃÄÄÄflask_api
+³       main.py
+³       
+ÃÄÄÄmlruns
+³   ÀÄÄÄ1
+³       ÃÄÄÄ19988cc018ed415e86aaefc86f01f73e
+³       ³   ÀÄÄÄartifacts
+³       ³       ³   confusion_matrix_Test Data.png
+³       ³       ³   tfidf_vectorizer.pkl
+³       ³       ³   
+³       ³       ÀÄÄÄlgbm_model
+³       ³               conda.yaml
+³       ³               input_example.json
+³       ³               MLmodel
+³       ³               model.pkl
+³       ³               python_env.yaml
+³       ³               requirements.txt
+³       ³               serving_input_example.json
+³       ³               
+³       ÃÄÄÄ68d7938e5e9a451c88013aaabdf8ad51
+³       ³   ÀÄÄÄartifacts
+³       ³       ³   confusion_matrix_Test Data.png
+³       ³       ³   tfidf_vectorizer.pkl
+³       ³       ³   
+³       ³       ÀÄÄÄlgbm_model
+³       ³               conda.yaml
+³       ³               input_example.json
+³       ³               MLmodel
+³       ³               model.pkl
+³       ³               python_env.yaml
+³       ³               requirements.txt
+³       ³               serving_input_example.json
+³       ³               
+³       ÀÄÄÄc6b9958e45c749f0b1ee35e0ec6c2f57
+³           ÀÄÄÄartifacts
+³               ³   confusion_matrix_Test Data.png
+³               ³   tfidf_vectorizer.pkl
+³               ³   
+³               ÀÄÄÄlgbm_model
+³                       conda.yaml
+³                       input_example.json
+³                       MLmodel
+³                       model.pkl
+³                       python_env.yaml
+³                       requirements.txt
+³                       serving_input_example.json
+³                       
+ÃÄÄÄnotebooks
+³       expirement_2.ipynb
+³       expirement_3_tfidf.ipynb
+³       expirement_4_imbalance_data.ipynb
+³       expirement_5_xgboost.ipynb
+³       expirement_6_lightgbm.ipynb
+³       expirement_7_stacking.ipynb
+³       expirement_baseline_model.ipynb
+³       preporcessing.ipynb
+³       reddit_preprocessing.csv
+³       
+ÃÄÄÄsrc
+³   ³   __init__.py
+³   ³   
+³   ÃÄÄÄdata
+³   ³       data_ingestion.py
+³   ³       data_preprocessing.py
+³   ³       
+³   ÀÄÄÄmodel
+³           model_building.py
+³           model_evaluation.py
+³           register_model.py
+³           
+ÃÄÄÄyoutube.egg-info
+³       dependency_links.txt
+³       PKG-INFO
+³       SOURCES.txt
+³       top_level.txt
+³       
+ÀÄÄÄyt-chrome-plugin-frontend
+        manifest.json
+        popup.html
+        popup.js
+        
