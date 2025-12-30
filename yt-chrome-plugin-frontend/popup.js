@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
   const outputDiv = document.getElementById("output");
-  const API_KEY = 'YOUR_YOUTUBE_API_KEY';  // Replace with your actual YouTube Data API key 
+  const API_KEY = YT_SENTIMENT_CONFIG.YOUTUBE_API_KEY;  // Replace with your actual YouTube Data API key 
   const API_URL = 'https://youtube-sentiment-api-321984285610.europe-west1.run.app';
 
   // Get the current tab's URL
