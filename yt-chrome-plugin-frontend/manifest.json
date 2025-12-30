@@ -9,8 +9,10 @@
   "permissions": [
     "tabs",
     "activeTab",
-    "scripting",
-    "http://localhost/*",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://youtube-sentiment-api-321984285610.europe-west1.run.app/*",
     "https://www.googleapis.com/*"
   ]
 }
