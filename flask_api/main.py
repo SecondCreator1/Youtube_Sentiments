@@ -73,7 +73,8 @@ def load_model(model_path, vectorizer_path):
         raise
 
     # Initialize the model and vectorizer
-model, vectorizer = load_model("./lgbm_model.pkl", "./tfidf_vectorizer.pkl")
+model, vectorizer = load_model("/app/lgbm_model.pkl", "/app/tfidf_vectorizer.pkl")
+
 
 @app.route('/')
 def home():
